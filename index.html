@@ -12,38 +12,417 @@
 
   <!-- font awesome -->
   <link rel="stylesheet" href="css/all.css">
-  <title>Grandma's Project</title>
+  <title>GAP LOCKSMITH</title>
   <style>
   </style>
 </head>
 
 <body>
 
-  <!-- icons -->
-  <!-- 
+
+  <header id="header">
+    <nav class="navbar navbar-expand-lg px-4">
+      <!-- 
     https://www.iconfinder.com/icons/2427887/dessert_donut_doughnut_fat_sweets_icon
     Creative Commons (Attribution 3.0 Unported);
     https://www.iconfinder.com/korawan_m
          -->
-  <!-- 
-    https://www.iconfinder.com/icons/2427860/baguette_bread_bread_loaf_food_toast_icon
-    Creative Commons (Attribution 3.0 Unported);
-    https://www.iconfinder.com/korawan_m
-         -->
-  <!-- 
-    https://www.iconfinder.com/icons/2427875/cup_cupcake_dessertice_cream_yogurt_icon
-    Creative Commons (Attribution 3.0 Unported);
-    https://www.iconfinder.com/korawan_m
-         -->
-  <!-- 
-    https://www.iconfinder.com/icons/2671457/candy_sweets_treat_trick_icon
-    Creative Commons (Attribution 3.0 Unported);
-    https://www.iconfinder.com/bluelabelicons
-         -->
+      <a href="#" class="navbar-brand">
+        <img src="img/LOGO.jpg" alt="main icon">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#myNavbar">
+        <span class="toggler-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </button>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="navbar-nav text-capitalize mx-auto">
+          <li class="nav-item active">
+            <a href="#header" class="nav-link">home</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#about" class="nav-link">about</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#store" class="nav-link">store</a>
+          </li>
+          <li class="nav-item active">
+            <a href="#services" class="nav-link">services</a>
+          </li>
+        </ul>
+        <div class="nav-info-items d-none d-lg-flex">
+          <!-- single info -->
+          <div class="nav-info align-items-center d-flex justify-content-between mx-lg-5">
+            <span class="info-icon mx-lg-3">
+              <i class="fas fa-phone"></i>
+            </span>
+            <p class="mb-0">+ 27815895644 </p>
+          </div>
+          <!-- single info -->
+         </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- banner -->
+    <div class="container-fluid">
+      <div class="row max-height justify-content-center align-items-center">
+        <div class="col-10 mx-auto banner text-center">
+          <h1 class="text-capitalize">
+            welcome to <strong class="banner-title"> GAP LOCKSMITH</strong>
+          </h1>
+                <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-8a7baa4d-7798-4aa8-8a46-3d4d5bf8da9c"></div>
+          <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-68d2a911-4471-498b-b483-b87032a0b150"></div>
+      </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of banner -->
+  </header>
+  <!-- end of heder -->
+  <!-- about -->
+  <section class="about py-5" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 mx-auto col-md-6 my-5">
+          <h1 class="text-capitalize">about <strong class="banner-title">us</strong></h1>
+          <p class="my-4 text-muted w-75">
+     We are a locksmith company that pride ourselves in providing the highest quality locksmith services. 
+     We help you to Save time, Save money, With Quality Locksmith Service. Therefore we are able to offer superior services in most parts of South Africa.
+    We offer efficient workmanship and guarantee our services. We work 24 hours a day to bring you fast quality services. 
+          </p>
+          <a href="#" class="btn btn-black text-uppercase">explore</a>
+        </div>
+        <div class="col-10 mx-auto col-md-6 my-5 align-self-center">
+          <div class="about-img__container">
+            <img src="img/aboutimage.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end of about -->
+  <!-- store section -->
+  <section id="store" class="store py-5">
+    <div class="container">
+      <!-- section title -->
+      <div class="row">
+        <div class="col-10 mx-auto col-sm-6 text-center">
+          <h1 class="text-capitalize">our <strong class="banner-title">store</strong></h1>
+        </div>
+      </div>
+      <!-- end section title -->
+      <!-- fitler buttons -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto d-flex justify-content-around sortBtn flex-wrap">
+          <a href="#" class="btn btn-black text-uppercase fliter-btn m-2" data-filter="all">All</a>
+          <a href="#" class="btn btn-black text-uppercase fliter-btn m-2" data-filter="all">Residential</a>
+          <a href="#" class="btn btn-black text-uppercase fliter-btn m-2" data-filter="all">Commercial</a>
+          <a href="#" class="btn btn-black text-uppercase fliter-btn m-2" data-filter="all">Cars</a>
+          <a href="#" class="btn btn-black text-uppercase fliter-btn m-2" data-filter="all">Speacial</a>
+        </div>
+      </div>
+      <!-- end of filter buttons -->
+      <!-- search box -->
+      <div class="row">
+        <div class="col-10 mx-auto col-md-6">
+          <form>
+            <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text search-box" id="search-icon">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+              <input type="text" class="form-control" placeholder="item..." id="search-item">
+            </div>
+          </form>
+
+        </div>
+      </div>
+      <!-- end of search box -->
+      <!-- store items -->
+      <div class="row store-items" id="store-items">
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/residential.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name"> Residential Key</h5>
+           
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/Commercial Lock.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name"> Commercial Lock</h5>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/Handy Car Keys.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name"> Handy Car Key</h5>
+              
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/Transponder car key.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name"> Transponder Car Key</h5>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/lockout.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name"> Lockout Key</h5>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/speacial.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name">Speacial Keys</h5>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/Cisa astral keys.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name"> Cias Astray Keys</h5>
+               
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/Grande Keys.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name"> Grande Key</h5>
+             
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+            
+       
+        <!-- single items -->
+        <div class="col-10 col-sm-6 col-lg-4 mx-auto my-3 store-item sweets" data-item="sweets">
+          <div class="card single-item">
+            <div class="img-container">
+              <img src="img/Key Precut.jpg" class="card-img-top store-img" alt="">
+              <span class="store-item-icon">
+                <i class="fas fa-shopping-cart"></i>
+              </span>
+            </div>
+            <div class="card-body">
+              <div class="card-text d-flex justify-content-between text-capitalize">
+                <h5 id="store-item-name"> Precut Key</h5>
+           
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- end of single item -->
+
+      </div>
+      <!-- end of store items -->
+    </div>
+  </section>
+  <!-- end of store section -->
+  <!-- icons -->
+
+
+
+
   <!--end of icons icons -->
+  <!-- services -->
+  <section id="services" class="services py-5">
+    <div class="container">
+      <div class="row">
+        <!-- single service -->
+        <div class="col-md-4 text-center my-3">
+          <!-- 
+              https://www.iconfinder.com/icons/2427860/baguette_bread_bread_loaf_food_toast_icon
+              Creative Commons (Attribution 3.0 Unported);
+              https://www.iconfinder.com/korawan_m
+                   -->
+          <img src="img/homekey.jpg" alt="home key">
+          <h6 class="text-uppercase my-3 service-title">Residential</h6>
+          <p class="w-75 mx-auto text-left service-text">
+            Lost the key to the sliding door? Broke the key? Locks Frozen? Want to consolidate keys/locks? We specialize in all types of locks for your home. These locks can include ones for your doors, windows, closets, and even safes. GAP locksmith can install, service, and repair the locks on your home to keep it safe from intruders. We can also make replacement or duplicate keys for any of your locks. Either modern or antique style locks can be installed in your home, depending on your preference.
+          </p>
+        </div>
+        <!-- end of single service -->
+        <!-- single service -->
+        <div class="col-md-4 text-center my-3">
+          <!-- 
+              https://www.iconfinder.com/icons/2427875/cup_cupcake_dessertice_cream_yogurt_icon
+              Creative Commons (Attribution 3.0 Unported);
+              https://www.iconfinder.com/korawan_m
+                   -->
+          <img src="img/transparent car keys.jpg" alt="Car Key">
+          <h6 class="text-uppercase my-3 service-title">Automobile</h6>
+          <p class="w-75 mx-auto text-left service-text">
+            Keys locked in your car? Lost the key? Broke the key? Locks Frozen? Trunk key not working? GAP locksmiths can open your car in case of emergency, remove broken keys, and also make new car keys for your car, no matter what year, make, or model you own. GAP locksmiths can also make a chip key or VAT key for you, and even offer high security key manufacturing and replacement. If you have lost a key and need a new one made, GAP locksmith can make one for you..
+          </p>
+        </div>
+        <!-- end of single service -->
+        <!-- single service -->
+        <div class="col-md-4 text-center my-3">
+          <!-- 
+              https://www.iconfinder.com/icons/2671457/candy_sweets_treat_trick_icon
+              Creative Commons (Attribution 3.0 Unported);
+              https://www.iconfinder.com/bluelabelicons
+                   -->
+          <img src="img/commercial lockout.jpg" alt="Commercial Key">
+          <h6 class="text-uppercase my-3 service-title">Commercial</h6>
+          <p class="w-75 mx-auto text-left service-text">
+            Have a lock or security issue with your business? Locked out? Need better locks for your workplace? Lost or broke the key? Want to upgrade to keyless? Need a complete access system? Since locks for businesses are designed to be more secure than those usually used for homes, GAP locksmith can install these locks and recommend which ones are the best for your particular business. When it comes to protecting your business, as well as the building’s occupants, GAP locksmith will help you to achieve peace of mind.
+          </p>
+        </div>
+        <!-- end of single service -->
+      </div>
+    </div>
+  </section>
+  <!-- end of services -->
+        
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 footer-title py-5">
+          <h1 class="text-capitalize text-center">
+            <strong class="banner-title">GAP LOCKSMITH</strong>
+          </h1>
+          <div class="footer-icons mt-3 d-flex justify-content-around flex-wrap">
+            <a href="#" class="footer-icon">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="#" class="footer-icon">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer-icon">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="footer-icon">
+              <i class="fab fa-google-plus"></i>
+            </a>
 
-
-
+          </div>
+        </div>
+        <div class="col-md-6 footer-contact text-center text-capitalize p-5">
+          <h3 class="mb-5">contact</h3>
+          <p class="d-flex flew-wrap">
+            <span class="mr-4 footer-icon">
+              <i class="fas fa-map"></i>
+            </span>
+            <span>
+              22 Curry Street, New Doorenfontei 
+            </span>
+          </p>
+          <p class="d-flex flew-wrap">
+            <span class="mr-4 footer-icon">
+              <i class="fas fa-phone"></i>
+            </span>
+            <span>
+              +27670934802
+            </span>
+          </p>
+          <p class="d-flex flew-wrap">
+            <span class="mr-4 footer-icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span style="text-transform: lowercase;">
+              freddymorudu83@gmail.com
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
   <!-- jquery -->
   <script src="js/jquery-3.3.1.min.js"></script>
   <!-- bootstrap js -->
